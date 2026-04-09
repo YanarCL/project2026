@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     db_user: str = "root"
     db_password: str = "1234"
     db_name: str = "fitbot"
+    web_app_url : str = "https://snnfitmate.ru/"
 
     class Config:
         env_file = ".env"
